@@ -26,6 +26,7 @@ class Calculator:
             raise ValueError("Cannot divide by zero!")
         self.last_result = a / b
         return self.last_result
+        return self.last_result
 
     def square_root(self, x):
         """Calcule la racine carrée"""
