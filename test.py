@@ -36,6 +36,7 @@ class Calculator:
             print("Warning: Imaginary number!", file=sys.stderr)
             print("Warning: Imaginary number!", file=sys.stderr)
             print("Warning: Imaginary number!", file=sys.stderr)
+            print("Warning: Imaginary number!", file=sys.stderr)
         self.last_result = math.sqrt(x)
         return self.last_result
 
